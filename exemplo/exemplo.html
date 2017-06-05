@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>fa7ui - Templete básico</title>
+
+
+        <!-- framework css -->
+        <link rel="stylesheet" href="../fa7ui.css">
+
+        <!-- css da página de exemplo -->
+        <link rel="stylesheet" href="exemplo.css">
+        
+        <!--lib para adicionar code highlight para os códigos de exemplo-->
+        <link rel="stylesheet" href="lib/highlight/styles/default.css">
+        
+    </head>
+    <body>
+        
+        <div class="box-fluid">
+
+
+            <header>
+
+                <div class="row">
+                <div class="col-mb-1">
+                    <h1>
+                        fa7ui - Framework CSS
+                    </h1>
+
+                    <p>
+                        Desenvolvido como atividade na cadeira de Aplicações ricas para internet.
+                        <br>
+                        <strong>
+                            Não foi planejado para ser utilizado em aplicações do mundo real.
+                            <br>
+                            Em desenvolvimento.
+                         </strong>
+                    </p>
+
+                    <p>
+                        Colaboradores:
+                        <ul>
+                            <li>
+                                Renato Colaço
+                            </li>
+                            <li>
+                                Bruno Maia
+                            </li>
+                            <li>
+                                Francisco Helker
+                            </li>
+                        </ul>
+
+                    </p>
+                </div>
+            </div>
+
+            </header>
+
+            
+
+            <div class="row">
+
+                <!--coluna do menu-->
+                <div class="col-mb-1 col-tb-1 col-dt-1">
+
+                    <nav id="menu">
+
+                        <!--menu-->
+                        <ul>
+                            <li>
+                                <a href="#grid">Grid</a>
+                            </li>
+                            <li>
+                                <a href="#tipografia">Tipografia</a>
+                            </li>
+                            <li>
+                                <a href="#imageVideo">Imagem e Vídeo</a>
+                            </li>
+                        </ul>
+
+                    </nav>
+
+                </div>
+
+                <!--coluna do conteúdo-->
+                <div class="col-mb-1 col-tb-3 col-dt-5">
+
+                    <section id="comecando">
+
+                        <div class="row">
+                            <div class="col-mb-1">
+                                <h1 class="text-center">Começando</h1>
+                            </div>
+                        </div>
+                        
+
+                        <!--grid-->
+                        <div class="row">
+                            
+                            <div class="col-mb-1">
+                                <h2 id="grid">Grid</h2>
+                                <p>teste</p>
+                            </div>                        
+
+                        </div>
+                        <!--grid-->
+
+                        <!--tipografia-->
+                        <div class="row">
+                            
+                            <div class="col-mb-1">
+                                <h2 id="tipografia">Tipografia</h2>
+                                <hr>
+
+                                <h3>Títulos</h3>
+                                <p>
+                                    Títulos de H1 até H6 foram normalizados e estilizados de acordo com sua ordem de importância.
+                                </p>
+
+                                
+                                <div class="exemplo">
+                                    <p>Exemplos:</p>
+
+                                    <table class="table">
+                                        <tbody>
+                                            <tr>
+                                                <td><h1>H1</h1></td>
+                                                <td class="type-info">44px ou 2.75rem</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <h2>H2</h2>
+                                                </td>
+                                                <td class="type-info">36px ou 2.25rem</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <h3>H3</h3>
+                                                </td>
+                                                <td class="type-info">28px ou 1.75rem</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <h4>H4</h4>
+                                                </td>
+                                                <td class="type-info">20px ou 1.25rem</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <h5>H5</h5>
+                                                </td>
+                                                <td class="type-info">16px ou 1rem</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <h6>H6</h6>
+                                                </td>
+                                                <td class="type-info">13,6px ou 0.85rem</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                                
+                                
+
+                            </div>                        
+
+                        </div>
+                        <!--tipografia-->
+
+
+                        <!--imagens e videos-->
+                        <div class="row">
+
+                            <div class="col-mb-1">
+                                <h2 id="imageVideo">Imagem e Vídeo</h2>
+
+                                <h3>Imagem</h3>
+                                <p>
+                                    Imagens podem se tornar responsivas com a adição da
+                                    classe <code>.fluid-image</code>.
+    
+                                </p>
+
+                                <div class="exemplo">
+
+                                    <p>Exemplo:</p>
+<pre><code class="html">&lt;img src="#" class="fluid-image" alt="Imagem responsiva" /&gt;</code></pre>
+                                </div>
+
+                                
+                                <h3>Vídeos</h3>
+                                <p>
+                                    Vídeos incorporados com tags <em>video</em>, <em>iframe</em>,
+                                    <em>object</em> e <em>embed</em> se tornam responsivos envolvendo-os
+                                    em uma <code>div</code> com a classe <code>fluid-video</code>.
+                                </p>
+
+                                <div class="exemplo">
+                                    <p>Exemplo</p>
+
+<pre><code>&lt;div class="fluid-video"&gt;
+&lt;iframe width="560" height="315" src="..." frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;</code></pre>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+
+                    </section>
+
+                </div>
+
+            </div>            
+
+        </div>
+
+
+        <!--scripts-->
+        
+        <!--libs-->
+        <script src="lib/jquery/jquery-3.2.1.min.js"></script>
+        <script src="lib/highlight/highlight.pack.js"></script>
+        
+        
+        <script>
+
+            jQuery("document").ready(function($){
+                
+                // iniciando o plugin de code highlight
+                $('pre code').each(function(i, block) {
+                    hljs.highlightBlock(block);
+                });
+
+
+                // código para fazer o menu acompanhar a rolagem do conteúdo.
+                var nav = $("#menu");
+                
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 250) {
+                        nav.addClass("f-nav");
+                    } else {
+                        nav.removeClass("f-nav");
+                    }
+                });
+            
+            });
+
+
+
+            
+        </script>
+
+    </body>
+</html>

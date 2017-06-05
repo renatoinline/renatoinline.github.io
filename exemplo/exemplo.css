@@ -1,0 +1,67 @@
+/*código css que não faz parte do framework mas para melhoria visual da página de exemplo.*/
+
+pre {
+    border: solid 1px #ddd;
+}
+
+code {
+
+    padding: 2px 4px;
+    background-color: #F0F0F0;
+    color: #880000;
+}
+
+
+#menu ul {
+    list-style: none;
+}
+
+#menu ul li {
+
+    margin-bottom: 10px;
+
+}
+
+/* Ajuste dos estilos do framework quando exibidos como exemplos */
+
+.exemplo {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.exemplo .table .type-info {
+    vertical-align: middle;
+    text-align: right;
+}
+
+.exemplo > .table tbody > tr:nth-of-type(odd) {
+  background-color: transparent;
+}
+
+.exemplo h1,
+.exemplo h2,
+.exemplo h3,
+.exemplo h4,
+.exemplo h5,
+.exemplo h6 {
+
+    margin: 0;
+
+}
+
+@media (min-width: 992px) {
+
+    /*menu deve ficar fixo somente em desktop*/
+    .f-nav {
+        z-index: 9999;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+
+
+}
+
+
+
