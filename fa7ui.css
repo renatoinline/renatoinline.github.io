@@ -687,6 +687,22 @@ th {
 
 /* TABELAS - FIM */
 
+/* LAYOUT PARA O MENU */
+.menu-horizontal ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+}
+
+.menu-horizontal ul > li {
+  display: inline-block;
+  border: 3px solid gray; 
+  padding: 5px;
+  background-color: gray;
+  font-size: 1rem;
+}
+/* LAYOUT PARA O MENU - FIM */
 
 /* GRID */
 
