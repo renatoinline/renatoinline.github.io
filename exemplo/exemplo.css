@@ -58,7 +58,10 @@ code {
 
 }
 
+
+
 @media (min-width: 992px) {
+
 
     /*menu deve ficar fixo somente em desktop*/
     .f-nav {
@@ -66,10 +69,8 @@ code {
         position: fixed;
         left: 0;
         top: 0;
-        width: 100%;
+        width: 230px;
     }
-
-
 }
 
 
