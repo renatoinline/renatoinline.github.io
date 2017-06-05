@@ -657,6 +657,7 @@ th {
 .table > thead > tr > th {
   vertical-align: bottom;
   border-bottom: 2px solid #ddd;
+  
 }
 
 .table > thead > tr > th,
@@ -703,6 +704,55 @@ th {
   font-size: 1rem;
 }
 /* LAYOUT PARA O MENU - FIM */
+
+/* BOTOES  e CORES*/
+
+.botao-padrao {
+
+  width: 90px;
+  display: inline-block;
+  color: #333;
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.cor-alerta {
+  color: #fff;
+  background-color: #8B0000;
+  border-color: #d43f3a;
+  border-radius: 15px;
+  font-size: 14px;
+}
+
+.cor-info {
+  color: #000000;
+  background-color: #008B8B;
+  border-color: #46b8da;
+  border-radius: 15px;
+  font-size: 14px;
+}
+
+.cor-sucesso {
+  color: #D3D3D3;
+  background-color: #006400;
+  border-color: #4cae4c;
+  border-radius: 15px;
+  font-size: 14px;
+}
+
+.close {
+  float: right;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .2;
+}
+
+/* BOTOES e CORES - FIM */
 
 /* GRID */
 

@@ -11,6 +11,15 @@ code {
     color: #880000;
 }
 
+.tam-stilo {
+    height: 40px;
+    padding-top: 10px;
+}
+
+.header-tab {
+    background-color: #483D8B;
+    color: #FFFAFA;
+}
 
 #menu ul {
     list-style: none;

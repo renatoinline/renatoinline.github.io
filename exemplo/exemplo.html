@@ -83,7 +83,16 @@
                                 <a href="#imageVideo">Imagem e Vídeo</a>
                             </li>
                             <li>
-                                <a href="#menuHorizontal">Menu</a>
+                                <a href="#menuHorizont">Menu Horizontal</a>
+                            </li>
+                            <li>
+                                <a href="#tabelas">Tabelas</a>
+                            </li>
+                            <li>
+                                <a href="#botoes">Botões </a>
+                            </li>
+                            <li>
+                                <a href="#cores">Paletas de Cores </a>
                             </li>
                         </ul>
 
@@ -179,27 +188,8 @@
                         <!--tipografia-->
 
                         <!-- Menu Horizontal -->
-                        <h2 id="menuHorizontal">Menu</h2>
-                        <h3>Menu Horizontal</h3>
-
-                        <p>
-                            A criação de menus pode ser feita adicionando-se a classe <code>.menu-horizontal</code>
-                            em uma <code>&lt;ul&gt;</code>.
-                        </p>
-
-                        <p>
-                            Código HTML
-                            <br>
-
-<pre><code>
-&lt;ul class=".menu-horizontal"&gt;
-    &lt;li&gt; Item 1 &lt;/li&gt;
-    &lt;li&gt; Item 2 &lt;/li&gt;
-    &lt;li&gt; Item 3 &lt;/li&gt;
-&lt;/ul&gt;
-</code></pre>
-
-                        </p>
+                        <h2>Menu</h2>
+                        <h3 id="menuHorizont">Menu Horizontal</h3>
 
                         <div class="exemplo">
                             <div class="menu-horizontal">
@@ -212,9 +202,100 @@
                                 </ul>
                             </div>
                         </div>
+                        <p>Menus horizontais podem ser usados com a adição da classe <code>.menu-horizontal</code> em uma <code>&lt;ul&gt;</code>.</p>
 
+                        <p>Exemplo:</p> 
+                        <pre>
+                        <code class="html">&lt;div class="menu-horizontal"/&gt;<br>&nbsp;&lt;ul&gt;<br> &nbsp;&nbsp;&lt;li&gt; &lt;a href="#">Cadastro &lt;/a&gt;&lt;/li&gt;<br>&nbsp;&nbsp;&nbsp;&lt;li&gt;&nbsp;&lt;a href="#">Lançamentos &lt;/a&gt;&lt;/li&gt;<br>&nbsp;&nbsp;&nbsp;&lt;li&gt; &lt;a href="#">Contatos &lt;/a&gt;&lt;/li&gt;<br>&nbsp;&lt;ul/&gt;<br>&lt;div/&gt;
+                        </code>
+                        </pre>
                         
 
+                        <!-- Tabelas -->
+                        <h2>Tabelas</h2>
+                        <h3 id="tabelas">Tabelas</h3>
+                       
+                        <table class="table">
+                            <thead class="header-tab">
+                                <tr>
+                                    <th>Produto</th>
+                                    <th>Categoria</th>
+                                    <th>Preço</th>
+                                    <th>Ações</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                                 <tr>
+                                    <th>Produto 1</th>
+                                    <th>Alimentos</th>
+                                    <th>20,0</th>
+                                    <th>Ações</th>
+                                </tr>
+                                 <tr>
+                                    <th>Produto 2</th>
+                                    <th>Limpeza</th>
+                                    <th>30,00</th>
+                                    <th>Ações</th>
+                                </tr>
+                                <tr>
+                                    <th>Produto 3</th>
+                                    <th>Bebidas</th>
+                                    <th>10,00</th>
+                                    <th>Ações</th>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <p>Estilos para Tabelas podem ser usados com a adição da classe <code>.table</code>.</p>
+
+                        <p>Exemplo:</p>
+                        <pre>    
+                        <code class="html">&lt;table class="table"/&gt;<br>&nbsp;&lt;thead class="header-tab"&gt;<br>&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Produtos&lt;/th&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Categorias&lt;/th&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Preços&lt;/th&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Ações&lt;/th&gt;<br>&nbsp;&nbsp;&nbsp;&lt;/tr&gt;&nbsp;<br>&nbsp;&nbsp;&lt;thead&gt;<br>&nbsp;&lt;tbody&gt;<br>&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Produto 1&lt;/th&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Alimentos&lt;/th&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;20,00&lt;/th&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Preço&lt;/th&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Ações&lt;/th&gt;<br>&nbsp;&nbsp;&lt;/tr&gt;<br>&nbsp;&lt;/tbody&gt;<br>&lt;/table&gt;
+                        </code>
+                        </pre>    
+                        
+
+                        <!-- Botoes -->
+                        <h2>Botões</h2>
+                        <h3 id="botoes">Botões </h3>
+                        <form class="bs-example" data-example-id="btn-tags" action="#">  
+                        <button class="botao-padrao cor-alerta" type="submit">Button</button> 
+                        <input class="botao-padrao" value="Input" type="button"> 
+                        <input class="botao-padrao cor-sucesso" value="Submit" type="submit"> 
+                        </form>
+                        <p>Botões podem ser usados com a adição da classe <code>.btn-padrao</code>,<br>
+                        podendo ser usado em um <code>&lt;button&gt;</code> ou <code>&lt;input&gt;</code> elemento <code> &lt;p&gt;</code>;
+
+                        <div class="exemplo">    
+                        <p>Exemplo:</p>    
+                        <pre><code class="html">&lt;button class="botao-padrao cor-alerta" type="submit" &gt;Button &lt;Button/&gt;<br>&lt;input class="botao-padrao" value="Input" type="button" &gt;<br>&lt;input class="botao-padrao cor-sucesso" value="Submit" type="submit" &gt;</code></pre>
+                        </div>
+
+                        <!-- Cores -->
+                        <h2>Palheta Cores</h2>
+                        <h3 id="cores">Cores </h3>
+                        
+                        <div class="cor-alerta tam-stilo"> 
+                                <strong>&nbsp;Avisos de Alerta/Error !</strong>
+                                <a class="close" data-dismiss="alert" href="#" aria-hidden="true">×</a>
+                        </div>
+                        <br>
+                        <div class="cor-info tam-stilo"> 
+                                <strong>&nbsp;Avisos de Informações.</strong>
+                                <a class="close" data-dismiss="alert" href="" aria-hidden="true">×</a>
+                        </div>
+                        <br>
+                        <div class="cor-sucesso tam-stilo"> 
+                                <strong>&nbsp;Avisos de Sucesso !</strong>
+                                <a class="close" data-dismiss="alert" href="" aria-hidden="true">×</a>
+                        </div>
+
+                        <p>Cores podem ser usadas com a adição da classe <code>.cor-alerta</code>, <code>.cor-info</code>, <code>.cor-sucesso</code>.
+
+                        <div class="exemplo">    
+                        <p>Exemplo:</p>    
+                        <pre><code class="html">&lt;div class="cor-alerta"&gt;<br>&nbsp;&lt;strong&gt; Avisos de Informações.&lt;strong/&gt;<br>&nbsp;&nbsp;&lt;a class="close" data-dismiss="alert" href="#" aria-hidden="true"&gt;x&lt;/a&gt;<br>&lt;/div&gt;<br>&lt;div class="cor-info"&gt;<br>&nbsp;&lt;strong&gt; Avisos de Informações.&lt;strong/&gt;<br>&nbsp;&nbsp;&lt;a class="close" data-dismiss="alert" href="#" aria-hidden="true"&gt;x&lt;/a&gt;<br>&lt;/div&gt;</code></pre>
+                        </div>    
 
                         <!--imagens e videos-->
                         <div class="row">
@@ -244,7 +325,7 @@
                                 </p>
 
                                 <div class="exemplo">
-                                    <p>Exemplo</p>
+                                    <p>Exemplo:</p>
 
 <pre><code>&lt;div class="fluid-video"&gt;
 &lt;iframe width="560" height="315" src="..." frameborder="0" allowfullscreen&gt; &lt;/iframe&gt;
